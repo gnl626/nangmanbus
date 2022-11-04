@@ -1,6 +1,6 @@
-package com.nangman.redis5.dto;
+package com.nangman.redis.dto;
 
-import com.nangman.redis5.domain.RedisCrud;
+import com.nangman.redis.domain.RedisCrud;
 import lombok.Getter;
 
 @Getter

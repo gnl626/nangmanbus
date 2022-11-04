@@ -1,4 +1,4 @@
-package com.nangman.redis5.dto;
+package com.nangman.redis.dto;
 
 import com.nangman.api.dto.BusStopDto;
 import com.nangman.api.dto.ChatDto;

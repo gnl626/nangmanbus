@@ -1,4 +1,4 @@
-package com.nangman.redis5.config;
+package com.nangman.redis.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

@@ -1,12 +1,12 @@
-package com.nangman.redis5.controller;
+package com.nangman.redis.controller;
 
 import com.nangman.api.dto.ChatDto;
 import com.nangman.api.service.ChatInOutRecordService;
 import com.nangman.api.service.ChatService;
 import com.nangman.db.entity.Bus;
 import com.nangman.db.repository.BusRepository;
-import com.nangman.redis5.dto.*;
-import com.nangman.redis5.service.RedisService;
+import com.nangman.redis.dto.*;
+import com.nangman.redis.service.RedisService;
 import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -14,7 +14,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Slf4j

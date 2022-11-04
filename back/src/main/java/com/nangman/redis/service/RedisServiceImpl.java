@@ -1,4 +1,4 @@
-package com.nangman.redis5.service;
+package com.nangman.redis.service;
 
 import com.nangman.api.dto.BusStopDto;
 import com.nangman.api.dto.ChatDto;
@@ -7,7 +7,7 @@ import com.nangman.db.entity.BusStop;
 import com.nangman.db.entity.User;
 import com.nangman.db.repository.RouteRepository;
 import com.nangman.db.repository.UserRepository;
-import com.nangman.redis5.dto.*;
+import com.nangman.redis.dto.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;

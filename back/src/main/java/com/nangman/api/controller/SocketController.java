@@ -3,7 +3,7 @@ package com.nangman.api.controller;
 import com.nangman.api.dto.ChatInOutRecordDto;
 import com.nangman.api.dto.SocketDto;
 import com.nangman.api.service.ChatInOutRecordService;
-import com.nangman.redis5.service.RedisService;
+import com.nangman.redis.service.RedisService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.handler.annotation.DestinationVariable;
@@ -11,11 +11,8 @@ import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Controller;
 
-import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 
 @Slf4j
 @RequiredArgsConstructor

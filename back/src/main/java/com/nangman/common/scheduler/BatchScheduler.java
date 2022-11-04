@@ -10,7 +10,7 @@ import com.nangman.db.entity.Bus;
 
 import com.nangman.db.repository.BusRepository;
 
-import com.nangman.redis5.service.RedisService;
+import com.nangman.redis.service.RedisService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;

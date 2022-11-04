@@ -1,4 +1,4 @@
-package com.nangman.redis5.dto;
+package com.nangman.redis.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

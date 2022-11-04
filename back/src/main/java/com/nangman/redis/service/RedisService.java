@@ -1,11 +1,11 @@
-package com.nangman.redis5.service;
+package com.nangman.redis.service;
 
 import com.nangman.api.dto.BusStopDto;
 import com.nangman.api.dto.ChatDto;
 import com.nangman.db.entity.Bus;
-import com.nangman.redis5.dto.ChattingRoomDto;
-import com.nangman.redis5.dto.RandomBusDto;
-import com.nangman.redis5.dto.RoomUserDto;
+import com.nangman.redis.dto.ChattingRoomDto;
+import com.nangman.redis.dto.RandomBusDto;
+import com.nangman.redis.dto.RoomUserDto;
 
 import java.util.List;
 
